@@ -5,5 +5,5 @@ body {
 } 
 a:focus, a:hover{
     font-style: italic;
-    color: orange;
+    color: orangered;
 }
