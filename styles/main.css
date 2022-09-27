@@ -44,7 +44,7 @@ main h3{
     margin-top: 3em;
     margin: 1.5em 2em 1.5em;
     font-size:105%;
-    border: 5px double greenyellow;
+    border: 5px double rgb(47, 255, 252);
     border-radius: 20px;
     box-shadow: 3px 3px 4px 4px rgb(115, 0, 255);
     padding: 0.5em;
@@ -52,7 +52,7 @@ main h3{
 main nav{
     margin: 1.5em 2em 1.5em;
     font-size: 105%;
-    border: 5px dashed greenyellow;;
+    border: 5px dashed rgb(47, 255, 252);;
     border-radius: 20px;
     box-shadow:3px 3px 4px 4px rgb(115, 0, 255);
     padding:0.5em;
@@ -63,7 +63,7 @@ main nav{
  margin-right: 2em;
  margin-bottom: 0em;
  margin-left: 2em;
-    border: 5px dashed greenyellow;;
+    border: 5px dashed rgb(47, 255, 252);;
     border: 5px dotted ;
  border-radius: 20px;
  box-shadow: 3px 3px 4px 4px rgb(115, 0, 255);
