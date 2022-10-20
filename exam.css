@@ -21,13 +21,4 @@ ol{list-style-type: upper-roman;}
 ul{list-style-type: square;}
 
 
-article p::first-letter {
-    font-size: 1em ;
-    font-weight: bold;
-    font-style: italic;
-    color: black
-}
-footer p.copyright{
-    text-align: center;
-    font-size: 80%;
-}
+
