@@ -28,7 +28,7 @@
         padding: 15px 1.5em;
         border: 1px solid black;
         border: radius 25px;
-        box-shadow: 5px 5px 0 0;
+        box-shadow: 5px;
     }
 
     img{
@@ -51,7 +51,8 @@
 
     research 
     {
-        width: 60%;
+        
+        width: 70%;
         float: left;
         clear: left;
         margin-top: 2em;
