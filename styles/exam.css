@@ -11,6 +11,11 @@
     font-weight: bold;
     border-right: 2px solid white;
 
+    
+
+      
+    
+
  }
   #nav_menu ul li a.lastitem {border-right:none;}
     #nav_menu ul li a.current { color:yellow;}
@@ -34,10 +39,11 @@
 
     research 
     {
+        
+        width: 70%;
         float: left;
-        width: 100%;
         clear: left;
-
+        margin-top: 2em;
         margin-left: 2em;
     
     }
