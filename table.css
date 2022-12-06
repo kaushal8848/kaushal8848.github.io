@@ -1,4 +1,4 @@
-tml, body {
+html, body {
     margin: 1em;
     height: 100%;
     font-size: 100%;
@@ -6,7 +6,7 @@ tml, body {
     * {
     font-family: Verdana, Arial, Helvetica, sans-serif;
     }
-    /*-----------------------------------------------------------*/
+   
     table.first {
         border-collapse: separate;
         border: 2px solid black;    
@@ -17,7 +17,7 @@ tml, body {
     table.first tr:nth-child(odd) {
         background-color: lightblue;
     }
-    /*-----------------------------------------------------------*/
+    
     table.second {    
         border-collapse: collapse; 
         border: 2px solid purple;   
@@ -34,7 +34,7 @@ tml, body {
     table.second thead tr:first-child{     
         border-bottom: 2px solid purple;
     }
-     /*-----------------------------------------------------------*/
+     
     table.third {    
         border-collapse: collapse;
     }
