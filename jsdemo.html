@@ -8,9 +8,9 @@
 </head>
 <body>
     <h1>The Test Scores App</h1>
-<script src="javascript/test_scores2.js"></script>   
-<h1>The Miles Per Gallon Calculator</h1>
-<script>
+    <script src="JavaScript/test_scores.js"></script>
+    <h1>The Miles Per Gallon Calculator</h1>
+    <script>
         const miles = parseInt(prompt("Enter miles driven"));
         const gallons = parseInt(prompt("Enter gallons of gas used"));
         const mpg = parseFloat(miles/gallons);
@@ -18,15 +18,16 @@
                         <p>Gallons: ${gallons}</p>
                         <p>MPG: ${mpg.toFixed(2)}</p>`;
         document.write(html2);
-</script>
-<h1> The Rectangle Area Calculator</h1>
-<script>
-    const lenght = parseFloat(prompt("Enter length of the Rectangle"));
-    const width = parseFloat(prompt("Enter the width of the Rectangle"));
-    const Area = parseFloat(lenght*width);
-    const html3 = `<p>lenght: ${length}</p>
-                  <p>width: ${width}</p>
-                  <p>Area: ${Area.toFixed(3)}</p>`;
-</script>
+    </script>    
+    <h1>The Rectangle Area Calculator</h1>
+    <script>
+        const length = parseFloat(prompt("Enter Length of the Rectangle"));
+        const width = parseFloat(prompt("Enter the Width of the Rectangle"));
+        const Area = parseFloat(length*width);
+        const html3 = `<p>Length: ${length}</p>
+                        <p>Width: ${width}</p>
+                        <p>Area: ${Area.toFixed(3)}</p>`;
+        document.write(html3)                
+    </script>
 </body>
 </html>
